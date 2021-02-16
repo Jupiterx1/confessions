@@ -98,3 +98,6 @@ if __name__ == '__main__':
     loop.run_until_complete(RedisConnection.pool.close())
     logger.info("Closing asyncio loop")
     loop.close()
+
+bot.login(process.env.TOKEN);
+
